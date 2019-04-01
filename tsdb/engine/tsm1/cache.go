@@ -8,9 +8,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/tsdb"
-	"github.com/influxdata/influxql"
+	"github.com/ivopetiz/influxdb/models"
+	"github.com/ivopetiz/influxdb/tsdb"
+	"github.com/ivopetiz/influxql"
 	"go.uber.org/zap"
 )
 

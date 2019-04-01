@@ -8,12 +8,12 @@ import (
 	"text/tabwriter"
 	"time"
 
-	"github.com/influxdata/influxdb/cmd/influx_tools/internal/format"
-	"github.com/influxdata/influxdb/cmd/influx_tools/internal/storage"
-	"github.com/influxdata/influxdb/cmd/influx_tools/server"
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/services/meta"
-	"github.com/influxdata/influxdb/tsdb"
+	"github.com/ivopetiz/influxdb/cmd/influx_tools/internal/format"
+	"github.com/ivopetiz/influxdb/cmd/influx_tools/internal/storage"
+	"github.com/ivopetiz/influxdb/cmd/influx_tools/server"
+	"github.com/ivopetiz/influxdb/models"
+	"github.com/ivopetiz/influxdb/services/meta"
+	"github.com/ivopetiz/influxdb/tsdb"
 )
 
 type exporterConfig struct {

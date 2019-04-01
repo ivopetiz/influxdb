@@ -3,7 +3,7 @@ package limiter_test
 import (
 	"testing"
 
-	"github.com/influxdata/influxdb/pkg/limiter"
+	"github.com/ivopetiz/influxdb/pkg/limiter"
 )
 
 func TestFixed_Available(t *testing.T) {

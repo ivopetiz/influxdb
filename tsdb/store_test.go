@@ -16,16 +16,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/influxdb/tsdb/index/inmem"
+	"github.com/ivopetiz/influxdb/tsdb/index/inmem"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/influxdata/influxdb/internal"
-	"github.com/influxdata/influxdb/logger"
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/pkg/deep"
-	"github.com/influxdata/influxdb/query"
-	"github.com/influxdata/influxdb/tsdb"
-	"github.com/influxdata/influxql"
+	"github.com/ivopetiz/influxdb/internal"
+	"github.com/ivopetiz/influxdb/logger"
+	"github.com/ivopetiz/influxdb/models"
+	"github.com/ivopetiz/influxdb/pkg/deep"
+	"github.com/ivopetiz/influxdb/query"
+	"github.com/ivopetiz/influxdb/tsdb"
+	"github.com/ivopetiz/influxql"
 )
 
 // Ensure the store can delete a retention policy and all shards under

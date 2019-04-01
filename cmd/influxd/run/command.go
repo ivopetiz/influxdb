@@ -15,7 +15,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/influxdata/influxdb/logger"
+	"github.com/ivopetiz/influxdb/logger"
 	"go.uber.org/zap"
 )
 

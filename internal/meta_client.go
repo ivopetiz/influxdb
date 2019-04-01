@@ -3,8 +3,8 @@ package internal
 import (
 	"time"
 
-	"github.com/influxdata/influxdb/services/meta"
-	"github.com/influxdata/influxql"
+	"github.com/ivopetiz/influxdb/services/meta"
+	"github.com/ivopetiz/influxql"
 )
 
 // MetaClientMock is a mockable implementation of meta.MetaClient.

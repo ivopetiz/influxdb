@@ -6,11 +6,11 @@ import (
 	"io"
 	"time"
 
-	"github.com/influxdata/influxdb/cmd/influx_tools/internal/format"
-	"github.com/influxdata/influxdb/cmd/influx_tools/internal/tlv"
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/tsdb"
-	"github.com/influxdata/influxql"
+	"github.com/ivopetiz/influxdb/cmd/influx_tools/internal/format"
+	"github.com/ivopetiz/influxdb/cmd/influx_tools/internal/tlv"
+	"github.com/ivopetiz/influxdb/models"
+	"github.com/ivopetiz/influxdb/tsdb"
+	"github.com/ivopetiz/influxql"
 )
 
 type Writer struct {

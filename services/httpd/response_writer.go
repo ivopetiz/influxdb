@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/influxdata/influxdb/models"
+	"github.com/ivopetiz/influxdb/models"
 	"github.com/tinylib/msgp/msgp"
 )
 

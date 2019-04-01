@@ -1,7 +1,7 @@
 package storage
 
 import (
-	"github.com/influxdata/influxdb/monitor/diagnostics"
+	"github.com/ivopetiz/influxdb/monitor/diagnostics"
 )
 
 const (

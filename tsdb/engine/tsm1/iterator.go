@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/influxdata/influxdb/pkg/metrics"
-	"github.com/influxdata/influxdb/pkg/tracing"
-	"github.com/influxdata/influxdb/query"
-	"github.com/influxdata/influxdb/tsdb"
+	"github.com/ivopetiz/influxdb/pkg/metrics"
+	"github.com/ivopetiz/influxdb/pkg/tracing"
+	"github.com/ivopetiz/influxdb/query"
+	"github.com/ivopetiz/influxdb/tsdb"
 	"go.uber.org/zap"
 )
 

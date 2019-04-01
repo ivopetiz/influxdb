@@ -6,11 +6,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/influxdb"
-	"github.com/influxdata/influxdb/pkg/testing/assert"
-	"github.com/influxdata/influxql"
+	"github.com/ivopetiz/influxdb"
+	"github.com/ivopetiz/influxdb/pkg/testing/assert"
+	"github.com/ivopetiz/influxql"
 
-	"github.com/influxdata/influxdb/services/meta"
+	"github.com/ivopetiz/influxdb/services/meta"
 )
 
 func Test_Data_DropDatabase(t *testing.T) {

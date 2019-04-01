@@ -18,10 +18,10 @@ import (
 
 	gzip "github.com/klauspost/pgzip"
 
-	"github.com/influxdata/influxdb/cmd/influxd/backup_util"
-	tarstream "github.com/influxdata/influxdb/pkg/tar"
-	"github.com/influxdata/influxdb/services/meta"
-	"github.com/influxdata/influxdb/services/snapshotter"
+	"github.com/ivopetiz/influxdb/cmd/influxd/backup_util"
+	tarstream "github.com/ivopetiz/influxdb/pkg/tar"
+	"github.com/ivopetiz/influxdb/services/meta"
+	"github.com/ivopetiz/influxdb/services/snapshotter"
 )
 
 // Command represents the program execution for "influxd restore".

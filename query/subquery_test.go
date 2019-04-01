@@ -5,8 +5,8 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/influxdata/influxdb/query"
-	"github.com/influxdata/influxql"
+	"github.com/ivopetiz/influxdb/query"
+	"github.com/ivopetiz/influxql"
 )
 
 type CreateIteratorFn func(ctx context.Context, m *influxql.Measurement, opt query.IteratorOptions) query.Iterator

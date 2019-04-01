@@ -1,7 +1,7 @@
 package query
 
 import (
-	"github.com/influxdata/influxdb/models"
+	"github.com/ivopetiz/influxdb/models"
 )
 
 // Emitter reads from a cursor into rows.

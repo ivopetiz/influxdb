@@ -8,8 +8,8 @@ import (
 	"testing"
 
 	"github.com/golang/snappy"
-	"github.com/influxdata/influxdb/pkg/slices"
-	"github.com/influxdata/influxdb/tsdb/engine/tsm1"
+	"github.com/ivopetiz/influxdb/pkg/slices"
+	"github.com/ivopetiz/influxdb/tsdb/engine/tsm1"
 )
 
 func TestWALWriter_WriteMulti_Single(t *testing.T) {

@@ -33,7 +33,7 @@ fi
 # Extract tarball into GOPATH.
 tar xz -C "$GOPATH" -f /influxdb-src.tar.gz
 
-SHA=$(jq -r .sha < "$GOPATH/src/github.com/influxdata/influxdb/.metadata.json")
+SHA=$(jq -r .sha < "$GOPATH/src/github.com/ivopetiz/influxdb/.metadata.json")
 
 
 SUFFIX=
@@ -73,7 +73,7 @@ for cmd in \
   ; do
     # Build all the binaries into $OUTDIR.
     # Windows binaries will get the .exe suffix as expected.
-    (cd "$OUTDIR" && go build $RACE_FLAG -i "github.com/influxdata/$cmd")
+    (cd "$OUTDIR" && go build $RACE_FLAG -i "github.com/ivopetiz/$cmd")
 done
 
 

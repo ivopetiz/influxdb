@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/influxdata/influxdb/tsdb/engine/tsm1"
+	"github.com/ivopetiz/influxdb/tsdb/engine/tsm1"
 )
 
 func Test_BooleanBatchDecodeAll_Single(t *testing.T) {

@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/influxdata/influxdb/monitor"
+	"github.com/ivopetiz/influxdb/monitor"
 )
 
 func TestDiagnostics_BuildInfo(t *testing.T) {

@@ -54,16 +54,16 @@ pipeline {
 
       steps {
         sh """
-        mkdir -p /go/src/github.com/influxdata
-        cp -a $WORKSPACE /go/src/github.com/influxdata/influxdb
+        mkdir -p /go/src/github.com/ivopetiz
+        cp -a $WORKSPACE /go/src/github.com/ivopetiz/influxdb
 
-        cd /go/src/github.com/influxdata/influxdb
+        cd /go/src/github.com/ivopetiz/influxdb
         go get github.com/golang/dep/cmd/dep
         dep ensure -vendor-only
         """
 
         sh """
-        cd /go/src/github.com/influxdata/influxdb
+        cd /go/src/github.com/ivopetiz/influxdb
         go test -parallel=1 ./...
         """
       }
@@ -78,16 +78,16 @@ pipeline {
 
       steps {
         sh """
-        mkdir -p /go/src/github.com/influxdata
-        cp -a $WORKSPACE /go/src/github.com/influxdata/influxdb
+        mkdir -p /go/src/github.com/ivopetiz
+        cp -a $WORKSPACE /go/src/github.com/ivopetiz/influxdb
 
-        cd /go/src/github.com/influxdata/influxdb
+        cd /go/src/github.com/ivopetiz/influxdb
         go get github.com/golang/dep/cmd/dep
         dep ensure -vendor-only
         """
 
         sh """
-        cd /go/src/github.com/influxdata/influxdb
+        cd /go/src/github.com/ivopetiz/influxdb
         go test -parallel=1 ./...
         """
       }

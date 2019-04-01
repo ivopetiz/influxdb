@@ -3,9 +3,9 @@ package storage_test
 import (
 	"testing"
 
-	"github.com/influxdata/influxdb/pkg/testing/assert"
-	"github.com/influxdata/influxdb/services/storage"
-	"github.com/influxdata/influxql"
+	"github.com/ivopetiz/influxdb/pkg/testing/assert"
+	"github.com/ivopetiz/influxdb/services/storage"
+	"github.com/ivopetiz/influxql"
 )
 
 func TestPredicateToExprString(t *testing.T) {

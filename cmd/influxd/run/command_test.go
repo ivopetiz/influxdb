@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/influxdb/cmd/influxd/run"
+	"github.com/ivopetiz/influxdb/cmd/influxd/run"
 )
 
 func TestCommand_PIDFile(t *testing.T) {

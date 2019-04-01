@@ -17,11 +17,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/influxdata/influxdb/cmd/influxd/run"
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/services/httpd"
-	"github.com/influxdata/influxdb/services/meta"
-	"github.com/influxdata/influxdb/toml"
+	"github.com/ivopetiz/influxdb/cmd/influxd/run"
+	"github.com/ivopetiz/influxdb/models"
+	"github.com/ivopetiz/influxdb/services/httpd"
+	"github.com/ivopetiz/influxdb/services/meta"
+	"github.com/ivopetiz/influxdb/toml"
 )
 
 var verboseServerLogs bool

@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/influxdb/query"
-	"github.com/influxdata/influxql"
+	"github.com/ivopetiz/influxdb/query"
+	"github.com/ivopetiz/influxql"
 )
 
 func TestPointLimitMonitor(t *testing.T) {

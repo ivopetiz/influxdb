@@ -6,11 +6,11 @@ import (
 	"io"
 	"os"
 
-	"github.com/influxdata/influxdb/cmd"
-	"github.com/influxdata/influxdb/cmd/store/help"
-	"github.com/influxdata/influxdb/cmd/store/query"
-	"github.com/influxdata/influxdb/logger"
-	_ "github.com/influxdata/influxdb/tsdb/engine"
+	"github.com/ivopetiz/influxdb/cmd"
+	"github.com/ivopetiz/influxdb/cmd/store/help"
+	"github.com/ivopetiz/influxdb/cmd/store/query"
+	"github.com/ivopetiz/influxdb/logger"
+	_ "github.com/ivopetiz/influxdb/tsdb/engine"
 	"go.uber.org/zap"
 )
 

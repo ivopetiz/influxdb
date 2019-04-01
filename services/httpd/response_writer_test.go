@@ -12,9 +12,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/query"
-	"github.com/influxdata/influxdb/services/httpd"
+	"github.com/ivopetiz/influxdb/models"
+	"github.com/ivopetiz/influxdb/query"
+	"github.com/ivopetiz/influxdb/services/httpd"
 	"github.com/tinylib/msgp/msgp"
 )
 

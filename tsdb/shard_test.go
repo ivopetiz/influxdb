@@ -17,19 +17,19 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/influxdb/internal"
+	"github.com/ivopetiz/influxdb/internal"
 
 	"github.com/davecgh/go-spew/spew"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/pkg/deep"
-	"github.com/influxdata/influxdb/query"
-	"github.com/influxdata/influxdb/tsdb"
-	_ "github.com/influxdata/influxdb/tsdb/engine"
-	_ "github.com/influxdata/influxdb/tsdb/index"
-	"github.com/influxdata/influxdb/tsdb/index/inmem"
-	"github.com/influxdata/influxql"
+	"github.com/ivopetiz/influxdb/models"
+	"github.com/ivopetiz/influxdb/pkg/deep"
+	"github.com/ivopetiz/influxdb/query"
+	"github.com/ivopetiz/influxdb/tsdb"
+	_ "github.com/ivopetiz/influxdb/tsdb/engine"
+	_ "github.com/ivopetiz/influxdb/tsdb/index"
+	"github.com/ivopetiz/influxdb/tsdb/index/inmem"
+	"github.com/ivopetiz/influxql"
 )
 
 func TestShardWriteAndIndex(t *testing.T) {

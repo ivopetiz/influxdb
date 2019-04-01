@@ -13,9 +13,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/influxdata/influxdb/client"
-	"github.com/influxdata/influxdb/cmd/influx/cli"
-	"github.com/influxdata/influxql"
+	"github.com/ivopetiz/influxdb/client"
+	"github.com/ivopetiz/influxdb/cmd/influx/cli"
+	"github.com/ivopetiz/influxql"
 	"github.com/peterh/liner"
 )
 

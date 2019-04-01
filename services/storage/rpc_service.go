@@ -7,15 +7,15 @@ import (
 	"strings"
 
 	"github.com/gogo/protobuf/types"
-	"github.com/influxdata/influxdb/logger"
-	"github.com/influxdata/influxdb/pkg/metrics"
-	"github.com/influxdata/influxdb/tsdb/engine/tsm1"
+	"github.com/ivopetiz/influxdb/logger"
+	"github.com/ivopetiz/influxdb/pkg/metrics"
+	"github.com/ivopetiz/influxdb/tsdb/engine/tsm1"
 	"github.com/opentracing/opentracing-go"
 	"github.com/opentracing/opentracing-go/ext"
 	"go.uber.org/zap"
 )
 
-//go:generate protoc -I$GOPATH/src/github.com/influxdata/influxdb/vendor -I. --gogofaster_out=Mgoogle/protobuf/empty.proto=github.com/gogo/protobuf/types,Mgoogle/protobuf/any.proto=github.com/gogo/protobuf/types,plugins=grpc:. storage_common.proto storage.proto predicate.proto
+//go:generate protoc -I$GOPATH/src/github.com/ivopetiz/influxdb/vendor -I. --gogofaster_out=Mgoogle/protobuf/empty.proto=github.com/gogo/protobuf/types,Mgoogle/protobuf/any.proto=github.com/gogo/protobuf/types,plugins=grpc:. storage_common.proto storage.proto predicate.proto
 //go:generate tmpl -data=@array_cursor.gen.go.tmpldata array_cursor.gen.go.tmpl
 //go:generate tmpl -data=@array_cursor.gen.go.tmpldata response_writer.gen.go.tmpl
 

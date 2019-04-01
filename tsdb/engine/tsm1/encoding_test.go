@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/influxdata/influxdb/tsdb/engine/tsm1"
+	"github.com/ivopetiz/influxdb/tsdb/engine/tsm1"
 )
 
 func TestEncoding_FloatBlock(t *testing.T) {

@@ -12,7 +12,7 @@ import (
 
 	"github.com/dgryski/go-bitstream"
 	"github.com/google/go-cmp/cmp"
-	"github.com/influxdata/influxdb/tsdb/engine/tsm1"
+	"github.com/ivopetiz/influxdb/tsdb/engine/tsm1"
 )
 
 func TestFloatBatchDecodeAll_Simple(t *testing.T) {

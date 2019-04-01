@@ -14,12 +14,12 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/pkg/bloom"
-	"github.com/influxdata/influxdb/pkg/estimator"
-	"github.com/influxdata/influxdb/pkg/estimator/hll"
-	"github.com/influxdata/influxdb/pkg/mmap"
-	"github.com/influxdata/influxdb/tsdb"
+	"github.com/ivopetiz/influxdb/models"
+	"github.com/ivopetiz/influxdb/pkg/bloom"
+	"github.com/ivopetiz/influxdb/pkg/estimator"
+	"github.com/ivopetiz/influxdb/pkg/estimator/hll"
+	"github.com/ivopetiz/influxdb/pkg/mmap"
+	"github.com/ivopetiz/influxdb/tsdb"
 )
 
 // Log errors.
@@ -684,7 +684,7 @@ func (f *LogFile) execSeriesEntry(e *LogEntry) {
 	// the entire database and the server is restarted. This would cause
 	// the log to replay its insert but the key cannot be found.
 	//
-	// https://github.com/influxdata/influxdb/issues/9444
+	// https://github.com/ivopetiz/influxdb/issues/9444
 	if seriesKey == nil {
 		return
 	}

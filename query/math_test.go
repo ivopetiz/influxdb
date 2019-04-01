@@ -4,8 +4,8 @@ import (
 	"math"
 	"testing"
 
-	"github.com/influxdata/influxdb/query"
-	"github.com/influxdata/influxql"
+	"github.com/ivopetiz/influxdb/query"
+	"github.com/ivopetiz/influxql"
 )
 
 func TestMath_TypeMapper(t *testing.T) {

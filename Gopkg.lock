@@ -145,7 +145,7 @@
 [[projects]]
   branch = "master"
   digest = "1:ac08c9f0449762095e72fcf636b8b2cfd1e16fea10d4f69776efddc95dc3a7be"
-  name = "github.com/influxdata/influxql"
+  name = "github.com/ivopetiz/influxql"
   packages = [
     ".",
     "internal",
@@ -156,7 +156,7 @@
 [[projects]]
   branch = "master"
   digest = "1:a6411d501f20aa4325c2cef806205a4b4802aec94b296f495db662c6ef46c787"
-  name = "github.com/influxdata/usage-client"
+  name = "github.com/ivopetiz/usage-client"
   packages = ["v1"]
   pruneopts = "UT"
   revision = "6d3895376368aa52a3a81d2a16e90f0f52371967"
@@ -530,8 +530,8 @@
     "github.com/golang/snappy",
     "github.com/google/go-cmp/cmp",
     "github.com/google/go-cmp/cmp/cmpopts",
-    "github.com/influxdata/influxql",
-    "github.com/influxdata/usage-client/v1",
+    "github.com/ivopetiz/influxql",
+    "github.com/ivopetiz/usage-client/v1",
     "github.com/jsternberg/zap-logfmt",
     "github.com/jwilder/encoding/simple8b",
     "github.com/klauspost/pgzip",

@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/influxdata/influxdb/models"
+	"github.com/ivopetiz/influxdb/models"
 )
 
 func TestGroupGroupResultSetSorting(t *testing.T) {

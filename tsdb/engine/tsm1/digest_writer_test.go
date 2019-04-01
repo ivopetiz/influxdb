@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/influxdata/influxdb/tsdb/engine/tsm1"
+	"github.com/ivopetiz/influxdb/tsdb/engine/tsm1"
 )
 
 func TestEngine_DigestWriterReader(t *testing.T) {

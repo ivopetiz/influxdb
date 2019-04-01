@@ -19,7 +19,7 @@ RUN gem install fpm
 
 # Setup env
 ENV GOPATH /root/go
-ENV PROJECT_DIR $GOPATH/src/github.com/influxdata/influxdb
+ENV PROJECT_DIR $GOPATH/src/github.com/ivopetiz/influxdb
 ENV PATH $GOPATH/bin:$PATH
 RUN mkdir -p $PROJECT_DIR
 

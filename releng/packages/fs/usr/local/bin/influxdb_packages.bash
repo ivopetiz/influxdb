@@ -37,7 +37,7 @@ fi
 
 mkdir -p /go
 tar x -C /go -zf /influxdb-src.tar.gz
-ln -s /go/src/github.com/influxdata/influxdb /isrc # Shorthand for influxdb source.
+ln -s /go/src/github.com/ivopetiz/influxdb /isrc # Shorthand for influxdb source.
 SHA=$(jq -r .sha < "/isrc/.metadata.json")
 VERSION=$(jq -r .version < "/isrc/.metadata.json")
 ARCHIVE_ROOT_NAME="influxdb-${VERSION}-1"

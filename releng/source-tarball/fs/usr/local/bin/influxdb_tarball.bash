@@ -34,13 +34,13 @@ if [ -z "$SHA" ] || [ -z "$BRANCH" ] || [ -z "$VERSION" ]; then
   exit 1
 fi
 
-IPATH=/go/src/github.com/influxdata
+IPATH=/go/src/github.com/ivopetiz
 mkdir -p "$IPATH" && cd "$IPATH"
 if [ -d /influxdb-git ]; then
   git clone /influxdb-git "$IPATH/influxdb"
 else
 
-  git clone https://github.com/influxdata/influxdb.git
+  git clone https://github.com/ivopetiz/influxdb.git
 fi
 
 cd influxdb
@@ -80,7 +80,7 @@ printf 'package main
 }' "$VERSION" > "./influxdb/cmd/influx/version.generated.go"
 
 # Prebuild the man pages so that consumers of the source tarball don't have to build it themselves.
-(cd /go/src/github.com/influxdata/influxdb/man && make build && gzip -9 ./*.1)
+(cd /go/src/github.com/ivopetiz/influxdb/man && make build && gzip -9 ./*.1)
 
 TARBALL_NAME="influxdb-src-$SHA.tar.gz"
 (cd /go && tar czf "/out/$TARBALL_NAME" --exclude-vcs ./*) # --exclude-vcs is a GNU tar option.

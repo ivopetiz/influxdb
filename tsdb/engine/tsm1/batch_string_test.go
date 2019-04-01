@@ -7,7 +7,7 @@ import (
 	"testing/quick"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/influxdata/influxdb/internal/testutil"
+	"github.com/ivopetiz/influxdb/internal/testutil"
 )
 
 func TestStringBatchDecodeAll_NoValues(t *testing.T) {

@@ -24,7 +24,7 @@ To use the "next" version of Go, set the environment variable GO_NEXT to a non-e
 
 ## source-tarball
 
-Generates a source tarball of influxdb that can be extracted to a new `GOPATH` such that you can `go build github.com/influxdata/influxdb/cmd/influxd`, etc., without manually setting linker flags or anything.
+Generates a source tarball of influxdb that can be extracted to a new `GOPATH` such that you can `go build github.com/ivopetiz/influxdb/cmd/influxd`, etc., without manually setting linker flags or anything.
 
 ## raw-binaries
 

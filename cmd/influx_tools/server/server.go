@@ -3,8 +3,8 @@ package server
 import (
 	"time"
 
-	"github.com/influxdata/influxdb/services/meta"
-	"github.com/influxdata/influxdb/tsdb"
+	"github.com/ivopetiz/influxdb/services/meta"
+	"github.com/ivopetiz/influxdb/tsdb"
 	"go.uber.org/zap"
 )
 

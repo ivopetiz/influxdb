@@ -3,8 +3,8 @@ package storage
 import (
 	"fmt"
 
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/tsdb"
+	"github.com/ivopetiz/influxdb/models"
+	"github.com/ivopetiz/influxdb/tsdb"
 )
 
 type ResponseStream interface {

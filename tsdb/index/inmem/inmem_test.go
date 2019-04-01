@@ -6,9 +6,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/tsdb"
-	"github.com/influxdata/influxdb/tsdb/index/inmem"
+	"github.com/ivopetiz/influxdb/models"
+	"github.com/ivopetiz/influxdb/tsdb"
+	"github.com/ivopetiz/influxdb/tsdb/index/inmem"
 )
 
 func createData(lo, hi int) (keys, names [][]byte, tags []models.Tags) {

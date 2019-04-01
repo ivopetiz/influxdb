@@ -10,8 +10,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/tsdb/engine/tsm1"
+	"github.com/ivopetiz/influxdb/models"
+	"github.com/ivopetiz/influxdb/tsdb/engine/tsm1"
 )
 
 // Command represents the program execution for "influxd deletetsm".

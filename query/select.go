@@ -8,9 +8,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/influxdata/influxdb/pkg/tracing"
-	"github.com/influxdata/influxdb/query/internal/gota"
-	"github.com/influxdata/influxql"
+	"github.com/ivopetiz/influxdb/pkg/tracing"
+	"github.com/ivopetiz/influxdb/query/internal/gota"
+	"github.com/ivopetiz/influxql"
 )
 
 var DefaultTypeMapper = influxql.MultiTypeMapper(

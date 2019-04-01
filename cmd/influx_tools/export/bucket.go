@@ -3,7 +3,7 @@ package export
 import (
 	"time"
 
-	"github.com/influxdata/influxdb/services/meta"
+	"github.com/ivopetiz/influxdb/services/meta"
 )
 
 func makeShardGroupsForDuration(min, max time.Time, d time.Duration) meta.ShardGroupInfos {

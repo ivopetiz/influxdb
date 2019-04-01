@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/influxdata/influxdb/tsdb"
-	"github.com/influxdata/influxdb/tsdb/engine/tsm1"
+	"github.com/ivopetiz/influxdb/tsdb"
+	"github.com/ivopetiz/influxdb/tsdb/engine/tsm1"
 )
 
 func TestDecodeFloatArrayBlock(t *testing.T) {

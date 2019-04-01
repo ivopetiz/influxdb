@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/influxdata/influxdb/tsdb"
+	"github.com/ivopetiz/influxdb/tsdb"
 )
 
 func TestNewMergeKeyIterator(t *testing.T) {

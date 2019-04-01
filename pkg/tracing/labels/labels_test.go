@@ -3,7 +3,7 @@ package labels
 import (
 	"testing"
 
-	"github.com/influxdata/influxdb/pkg/testing/assert"
+	"github.com/ivopetiz/influxdb/pkg/testing/assert"
 )
 
 func makeLabels(args ...string) Labels {

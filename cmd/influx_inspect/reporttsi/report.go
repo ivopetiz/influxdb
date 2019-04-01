@@ -16,9 +16,9 @@ import (
 	"sync/atomic"
 	"text/tabwriter"
 
-	"github.com/influxdata/influxdb/logger"
-	"github.com/influxdata/influxdb/tsdb"
-	"github.com/influxdata/influxdb/tsdb/index/tsi1"
+	"github.com/ivopetiz/influxdb/logger"
+	"github.com/ivopetiz/influxdb/tsdb"
+	"github.com/ivopetiz/influxdb/tsdb/index/tsi1"
 )
 
 const (

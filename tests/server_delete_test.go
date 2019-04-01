@@ -14,7 +14,7 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/influxdata/influxdb/models"
+	"github.com/ivopetiz/influxdb/models"
 )
 
 var db = "db0"

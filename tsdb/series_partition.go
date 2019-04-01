@@ -9,9 +9,9 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/influxdata/influxdb/logger"
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/pkg/rhh"
+	"github.com/ivopetiz/influxdb/logger"
+	"github.com/ivopetiz/influxdb/models"
+	"github.com/ivopetiz/influxdb/pkg/rhh"
 	"go.uber.org/zap"
 )
 

@@ -9,8 +9,8 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/tsdb/index/tsi1"
+	"github.com/ivopetiz/influxdb/models"
+	"github.com/ivopetiz/influxdb/tsdb/index/tsi1"
 )
 
 // Bloom filter settings used in tests.

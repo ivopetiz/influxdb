@@ -15,9 +15,9 @@ import (
 
 	"github.com/gogo/protobuf/proto"
 	"github.com/gogo/protobuf/types"
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/services/storage"
-	"github.com/influxdata/influxql"
+	"github.com/ivopetiz/influxdb/models"
+	"github.com/ivopetiz/influxdb/services/storage"
+	"github.com/ivopetiz/influxql"
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
 )

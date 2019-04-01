@@ -7,7 +7,7 @@
 package storage
 
 import (
-	"github.com/influxdata/influxdb/tsdb"
+	"github.com/ivopetiz/influxdb/tsdb"
 )
 
 func (w *ResponseWriter) getFloatPointsFrame() *ReadResponse_Frame_FloatPoints {

@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/influxdb/monitor"
+	"github.com/ivopetiz/influxdb/monitor"
 )
 
 func TestDiagnostics_System(t *testing.T) {

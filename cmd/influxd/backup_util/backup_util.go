@@ -11,8 +11,8 @@ import (
 	"strings"
 
 	"github.com/gogo/protobuf/proto"
-	internal "github.com/influxdata/influxdb/cmd/influxd/backup_util/internal"
-	"github.com/influxdata/influxdb/services/snapshotter"
+	internal "github.com/ivopetiz/influxdb/cmd/influxd/backup_util/internal"
+	"github.com/ivopetiz/influxdb/services/snapshotter"
 	"io/ioutil"
 	"path/filepath"
 )

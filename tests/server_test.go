@@ -19,10 +19,10 @@ import (
 	"github.com/gogo/protobuf/proto"
 	"github.com/golang/snappy"
 	"github.com/google/go-cmp/cmp"
-	"github.com/influxdata/influxdb/coordinator"
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/prometheus/remote"
-	"github.com/influxdata/influxdb/tsdb"
+	"github.com/ivopetiz/influxdb/coordinator"
+	"github.com/ivopetiz/influxdb/models"
+	"github.com/ivopetiz/influxdb/prometheus/remote"
+	"github.com/ivopetiz/influxdb/tsdb"
 )
 
 // Global server used by benchmarks
@@ -8590,7 +8590,7 @@ func TestServer_ContinuousQuery(t *testing.T) {
 			exp:     `{"results":[{"statement_id":0,"series":[{"name":"cpu","columns":["time","count","host","region","value"],"values":[["` + interval2.UTC().Format(time.RFC3339Nano) + `",3,null,null,null]]},{"name":"gpu","columns":["time","count","host","region","value"],"values":[["` + interval1.UTC().Format(time.RFC3339Nano) + `",2,null,null,null],["` + interval0.UTC().Format(time.RFC3339Nano) + `",1,null,null,null]]}]}]}`,
 			params:  url.Values{"db": []string{"db0"}},
 		},
-		// TODO: restore this test once this is fixed: https://github.com/influxdata/influxdb/issues/3968
+		// TODO: restore this test once this is fixed: https://github.com/ivopetiz/influxdb/issues/3968
 		&Query{
 			skip:    true,
 			name:    "check results of cq2",

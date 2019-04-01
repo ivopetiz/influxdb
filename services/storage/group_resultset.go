@@ -7,9 +7,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/influxdata/influxdb/logger"
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/tsdb"
+	"github.com/ivopetiz/influxdb/logger"
+	"github.com/ivopetiz/influxdb/models"
+	"github.com/ivopetiz/influxdb/tsdb"
 	"github.com/opentracing/opentracing-go"
 	"go.uber.org/zap"
 )
